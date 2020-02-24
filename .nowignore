@@ -1,0 +1,6 @@
+coverage/
+.nuxt/
+node_modules/
+*.log
+README.md
+tests/

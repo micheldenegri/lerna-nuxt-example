@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
+    "noEmit": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./src/*"]
+    },
+    "types": [
+      "@types/node",
+      "@types/jest"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

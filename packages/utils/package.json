@@ -1,0 +1,34 @@
+{
+  "name": "@micheldenegri/utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Michel Denegri <micheldenegri@me.com>",
+  "homepage": "https://github.com/micheldenegri/lerna-nuxt-example#readme",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micheldenegri/lerna-nuxt-example.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint --ext .ts ./src/",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "lodash": "^4.17.15",
+    "prettier": "^1.19.1"
+  },
+  "bugs": {
+    "url": "https://github.com/micheldenegri/lerna-nuxt-example/issues"
+  }
+}

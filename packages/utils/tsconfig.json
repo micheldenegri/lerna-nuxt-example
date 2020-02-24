@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "declaration": true,
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"]
+    },
+    "types": [
+      "@types/node",
+      "@types/jest"
+    ]
+  },
+  "include": ["src"]
+}
